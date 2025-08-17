@@ -1,7 +1,5 @@
 # Contributing Guidelines – Coaching Management Project
 
----
-
 ## 1. Getting Started
 
 ### Clone the Repository
