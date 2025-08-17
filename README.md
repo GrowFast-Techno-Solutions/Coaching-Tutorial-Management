@@ -2,9 +2,12 @@
 
 A comprehensive **MERN Stack** application designed to streamline the management of coaching institutes. This system provides tools for managing students, tracking payments, monitoring academic progress, and facilitating communication between instructors and students.
 
+---
+
+
 ## ✨ Features
 
---
+---
 
 ### 👨‍🎓 Student Management
 - Student registration and profile management
@@ -65,10 +68,10 @@ A comprehensive **MERN Stack** application designed to streamline the management
 
 ### Development Tools
 - **Vite** - Build tool
-<!-- - **ESLint** - Code linting
-- **Prettier** - Code formatting -->
 - **Nodemon** - Development server
-<!-- - **Concurrently** - Run multiple commands -->
+<!-- - **ESLint** - Code linting
+- **Prettier** - Code formatting
+- **Concurrently** - Run multiple commands -->
 
 ## 📋 Prerequisites
 
@@ -112,23 +115,6 @@ PORT=5000
 MONGO_URI=mongodb://localhost:27017/coaching_management
 DB_NAME=coaching_management
 
-# JWT
-JWT_SECRET=your_super_secret_jwt_key_here
-JWT_EXPIRE=7d
-
-# Email Configuration (Optional)
-EMAIL_HOST=smtp.gmail.com
-EMAIL_PORT=587
-EMAIL_USER=your-email@gmail.com
-EMAIL_PASS=your-app-password
-
-# Cloudinary (for file uploads)
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_api_key
-CLOUDINARY_API_SECRET=your_api_secret
-
-# Frontend URL
-CLIENT_URL=http://localhost:3000
 ```
 
 #### Frontend (.env in client folder)
@@ -154,7 +140,7 @@ npm run dev
 **Backend:**
 ```bash
 cd server
-npm run dev
+npm start
 ```
 
 **Frontend:**
@@ -164,9 +150,9 @@ npm run dev
 ```
 
 ### 6. Access the Application
-- Frontend: http://localhost:3000
+- Frontend: http://localhost:5173
 - Backend API: http://localhost:5000
-- API Documentation: http://localhost:5000/api-docs (if implemented)
+<!-- - API Documentation: http://localhost:5000/api-docs  -->
 
 ## 📁 Project Structure
 
@@ -196,7 +182,7 @@ coaching-tutorial-management/
 └── package.json
 ```
 
-## 🔐 Default Login Credentials
+<!-- ## 🔐 Default Login Credentials
 
 ### Admin Account
 - **Email:** admin@coaching.com
@@ -210,9 +196,9 @@ coaching-tutorial-management/
 - **Email:** student@coaching.com
 - **Password:** student123
 
-> **Note:** Please change these credentials in production!
+> **Note:** Please change these credentials in production! -->
 
-## 📚 API Endpoints
+<!-- ## 📚 API Endpoints
 
 ### Authentication
 - `POST /api/auth/login` - User login
@@ -236,45 +222,11 @@ coaching-tutorial-management/
 - `GET /api/courses` - Get all courses
 - `POST /api/courses` - Create new course
 - `PUT /api/courses/:id` - Update course
-- `DELETE /api/courses/:id` - Delete course
-
-## 🧪 Testing
-
-```bash
-# Run backend tests
-cd server
-npm test
-
-# Run frontend tests
-cd client
-npm test
-```
-
-## 📦 Production Deployment
-
-### 1. Build the frontend
-```bash
-cd client
-npm run build
-```
-
-### 2. Deploy to your preferred platform:
-- **Heroku**
-- **Vercel** (Frontend)
-- **Railway**
-- **DigitalOcean**
-- **AWS**
-
-### 3. Environment Variables
-Make sure to set all environment variables in your production environment.
+- `DELETE /api/courses/:id` - Delete course -->
 
 ## 🤝 Contributing
 
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+- For any contribution refer [CONTRIBUTING.md](CONTRIBUTING.md) 
 
 ## 📄 License
 
@@ -283,7 +235,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🐛 Issues & Support
 
 If you encounter any issues or have questions:
-1. Check the [Issues](https://github.com/yourusername/coaching-tutorial-management/issues) page
+1. Check the [Issues](https://github.com/GrowFast-Techno-Solutions/coaching-tutorial-management/issues) page
 2. Create a new issue if your problem isn't already reported
 3. Provide detailed information about the problem
 
@@ -308,4 +260,4 @@ If you encounter any issues or have questions:
 
 ---
 
-**Made with ❤️ by [Your Name](https://github.com/yourusername)**
+**Made with ❤️ by [GrowFast Techno Solutions](https://github.com/GrowFast-Techno-Solutions)**
