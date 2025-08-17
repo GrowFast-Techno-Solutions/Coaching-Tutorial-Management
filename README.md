@@ -2,12 +2,8 @@
 
 A comprehensive **MERN Stack** application designed to streamline the management of coaching institutes. This system provides tools for managing students, tracking payments, monitoring academic progress, and facilitating communication between instructors and students.
 
----
-
 
 ## ✨ Features
-
----
 
 ### 👨‍🎓 Student Management
 - Student registration and profile management
@@ -247,15 +243,15 @@ If you encounter any issues or have questions:
 - [Tailwind CSS](https://tailwindcss.com/) - CSS framework
 - [Node.js](https://nodejs.org/) - Runtime environment
 
-## 📸 Screenshots
+<!-- ## 📸 Screenshots
 
-<!-- ### Dashboard
-![Dashboard](screenshots/dashboard.png) -->
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
 
-<!-- ### Student Management
-![Student Management](screenshots/students.png) -->
+### Student Management
+![Student Management](screenshots/students.png)
 
-<!-- ### Payment Tracking
+### Payment Tracking
 ![Payment Tracking](screenshots/payments.png) -->
 
 ---
